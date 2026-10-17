@@ -12,7 +12,7 @@ Projeto final da disciplina **Programação para Web**, do curso de **Análise e
 
 | Nome completo | Matrícula |
 |---|---|
-| Carlos Oliveira Lopes | 25.1.07350 |
+| kaio moreira  | 25.1.06774 |
 
 
 ## Tecnologias utilizadas
@@ -49,8 +49,7 @@ As tags são uma tabela separada porque uma atração tem várias tags e a mesma
 ## Instalação e configuração
 
 ```bash
-git clone https://github.com/CarlosOliveira7/Balsas-Api.git
-cd Balsas-Api
+git clone https://github.com/kaiomoreirabr-cyber/BalsasExperience-API.git
 npm install
 ```
 
