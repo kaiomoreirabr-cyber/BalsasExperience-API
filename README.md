@@ -100,19 +100,19 @@ Parâmetros de `GET /atracoes`: `categoria`, `tag`, `q` (busca no nome e na desc
 **Listar atrações**
 
 ```bash
-curl https://balsas-api.onrender.com/atracoes
+curl https://balsas-experience-api-1.onrender.com/atracoes
 ```
 
 **Filtrar por tag**
 
 ```bash
-curl "https://balsas-api.onrender.com/atracoes?tag=cachoeira"
+curl https://balsas-experience-api-1.onrender.com/categorias
 ```
 
 **Atração inexistente (404)**
 
 ```bash
-curl -i https://balsas-api.onrender.com/atracoes/9999
+curl -i https://balsas-experience-api-1.onrender.com/atracoes/9999
 ```
 
 ```json
@@ -122,7 +122,7 @@ curl -i https://balsas-api.onrender.com/atracoes/9999
 **Criar atração (201)**
 
 ```bash
-curl -X POST https://balsas-api.onrender.com/atracoes \
+curl -X POST https://balsas-experience-api-1.onrender.com/atracoes\
   -H "Content-Type: application/json" \
   -d '{
     "nome": "Parque de Lazer",
@@ -157,7 +157,7 @@ Resposta `201 Created` (os ids variam conforme o banco):
 **Avaliar uma atração (201)**
 
 ```bash
-curl -X POST https://balsas-api.onrender.com/atracoes/1/avaliacoes \
+curl -X POSThttps://balsas-experience-api-1.onrender.com/atracoes/1/avaliacoes \
   -H "Content-Type: application/json" \
   -d '{ "visitante": "Ana", "nota": 5, "comentario": "Vale a visita." }'
 ```
@@ -165,9 +165,8 @@ curl -X POST https://balsas-api.onrender.com/atracoes/1/avaliacoes \
 **Remover (204, sem corpo)**
 
 ```bash
-curl -i -X DELETE https://balsas-api.onrender.com/atracoes/9
+curl -i -X DELETE https://balsas-experience-api-1.onrender.com/atracoes/9
 ```
 
 ## Link da API publicada
-
-https://balsas-api.onrender.com/
+https://balsas-experience-api-1.onrender.com/
